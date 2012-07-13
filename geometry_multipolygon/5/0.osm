@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='668' visible='true' version='1' lat='0.09' lon='0.1' />
+  <node id='669' visible='true' version='1' lat='0.08' lon='0.1' />
+  <node id='671' visible='true' version='1' lat='0.08' lon='0.12' />
+  <node id='673' visible='true' version='1' lat='0.09' lon='0.12' />
+  <node id='677' visible='true' version='1' lat='0.0875' lon='0.105' />
+  <node id='678' visible='true' version='1' lat='0.0825' lon='0.11' />
+  <node id='680' visible='true' version='1' lat='0.0875' lon='0.115' />
+  <way id='670' visible='true' version='1'>
+    <nd ref='668' />
+    <nd ref='669' />
+    <nd ref='671' />
+    <nd ref='673' />
+    <nd ref='668' />
+  </way>
+  <way id='679' visible='true' version='1'>
+    <nd ref='677' />
+    <nd ref='678' />
+    <nd ref='680' />
+    <nd ref='677' />
+  </way>
+  <relation id='5' visible='true' version='1'>
+    <member type='way' ref='679' role='outer' />
+    <member type='way' ref='670' role='inner' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='role mismatch' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

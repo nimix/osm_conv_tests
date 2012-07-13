@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+
+  <node id='812' visible='true' version='1' lat='0.15' lon='0.1' />
+  <node id='813' visible='true' version='1' lat='0.14' lon='0.1' />
+  <node id='815' visible='true' version='1' lat='0.14' lon='0.11' />
+  <node id='817' visible='true' version='1' lat='0.14' lon='0.12' />
+  <node id='819' visible='true' version='1' lat='0.15' lon='0.12' />
+  <node id='821' visible='true' version='1' lat='0.15' lon='0.11' />
+  <node id='824' visible='true' version='1' lat='0.145' lon='0.105' />
+  <node id='827' visible='true' version='1' lat='0.145' lon='0.115' />
+
+  <way id='482' visible='true' version='1'>
+    <nd ref='480' />
+    <nd ref='481' />
+    <nd ref='483' />
+    <nd ref='485' />
+    <nd ref='480' />
+  </way>
+  <way id='491' visible='true' version='1'>
+    <nd ref='489' />
+    <nd ref='490' />
+    <nd ref='492' />
+    <nd ref='494' />
+    <nd ref='489' />
+  </way>
+  <way id='502' visible='true' version='1'>
+    <nd ref='500' />
+    <nd ref='501' />
+    <nd ref='503' />
+    <nd ref='505' />
+    <nd ref='500' />
+  </way>
+  <way id='511' visible='true' version='1'>
+    <nd ref='509' />
+    <nd ref='510' />
+    <nd ref='512' />
+    <nd ref='514' />
+    <nd ref='509' />
+  </way>
+  <way id='582' action='modify' visible='true' version='1'>
+    <nd ref='583' />
+    <nd ref='581' />
+    <nd ref='580' />
+  </way>
+  <way id='586' visible='true' version='1'>
+    <nd ref='583' />
+    <nd ref='585' />
+    <nd ref='580' />
+  </way>
+  <way id='607' visible='true' version='1'>
+    <nd ref='605' />
+    <nd ref='606' />
+    <nd ref='608' />
+    <nd ref='605' />
+  </way>
+  <way id='622' action='modify' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='621' />
+    <nd ref='620' />
+  </way>
+  <way id='628' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='627' />
+    <nd ref='620' />
+  </way>
+  <way id='632' visible='true' version='1'>
+    <nd ref='630' />
+    <nd ref='631' />
+    <nd ref='633' />
+    <nd ref='630' />
+  </way>
+  <way id='670' visible='true' version='1'>
+    <nd ref='668' />
+    <nd ref='669' />
+    <nd ref='671' />
+    <nd ref='673' />
+    <nd ref='668' />
+  </way>
+  <way id='679' visible='true' version='1'>
+    <nd ref='677' />
+    <nd ref='678' />
+    <nd ref='680' />
+    <nd ref='677' />
+  </way>
+  <way id='745' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='625' />
+  </way>
+  <way id='750' visible='true' version='1'>
+    <nd ref='748' />
+    <nd ref='749' />
+    <nd ref='751' />
+    <nd ref='753' />
+    <nd ref='748' />
+  </way>
+  <way id='759' visible='true' version='1'>
+    <nd ref='757' />
+    <nd ref='758' />
+    <nd ref='763' />
+    <nd ref='757' />
+  </way>
+  <way id='767' visible='true' version='1'>
+    <nd ref='766' />
+    <nd ref='758' />
+    <nd ref='763' />
+    <nd ref='766' />
+  </way>
+  <way id='775' visible='true' version='1'>
+    <nd ref='773' />
+    <nd ref='774' />
+    <nd ref='776' />
+    <nd ref='778' />
+    <nd ref='773' />
+  </way>
+  <way id='794' visible='true' version='1'>
+    <nd ref='793' />
+    <nd ref='773' />
+    <nd ref='778' />
+    <nd ref='793' />
+  </way>
+  <way id='814' visible='true' version='1'>
+    <nd ref='812' />
+    <nd ref='813' />
+    <nd ref='815' />
+    <nd ref='817' />
+    <nd ref='819' />
+    <nd ref='821' />
+    <nd ref='812' />
+  </way>
+  <way id='825' visible='true' version='1'>
+    <nd ref='821' />
+    <nd ref='824' />
+    <nd ref='815' />
+    <nd ref='827' />
+    <nd ref='821' />
+  </way>
+
+  <relation id='8' visible='true' version='1'>
+    <member type='way' ref='825' role='inner' />
+    <member type='way' ref='814' role='outer' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='inner cutting the outer way' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+
+</osm>

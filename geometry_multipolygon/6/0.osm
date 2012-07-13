@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='748' visible='true' version='1' lat='0.11' lon='0.1' />
+  <node id='749' visible='true' version='1' lat='0.10' lon='0.1' />
+  <node id='751' visible='true' version='1' lat='0.10' lon='0.12' />
+  <node id='753' visible='true' version='1' lat='0.11' lon='0.12' />
+  <node id='757' visible='true' version='1' lat='0.105' lon='0.105' />
+  <node id='758' visible='true' version='1' lat='0.1025' lon='0.11' />
+  <node id='763' visible='true' version='1' lat='0.1075' lon='0.11' />
+  <node id='766' visible='true' version='1' lat='0.105' lon='0.115' />
+
+
+  <way id='750' visible='true' version='1'>
+    <nd ref='748' />
+    <nd ref='749' />
+    <nd ref='751' />
+    <nd ref='753' />
+    <nd ref='748' />
+  </way>
+  <way id='759' visible='true' version='1'>
+    <nd ref='757' />
+    <nd ref='758' />
+    <nd ref='763' />
+    <nd ref='757' />
+  </way>
+  <way id='767' visible='true' version='1'>
+    <nd ref='766' />
+    <nd ref='758' />
+    <nd ref='763' />
+    <nd ref='766' />
+  </way>
+
+  <relation id='6' visible='true' version='1'>
+    <member type='way' ref='759' role='inner' />
+    <member type='way' ref='750' role='outer' />
+    <member type='way' ref='767' role='inner' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='touching inner rings' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

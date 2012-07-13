@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='580' visible='true' version='1' lat='0.05' lon='0.1' />
+  <node id='581' visible='true' version='1' lat='0.04' lon='0.1' />
+  <node id='583' visible='true' version='1' lat='0.04' lon='0.12' />
+  <node id='585' visible='true' version='1' lat='0.05' lon='0.12' />
+  <node id='605' visible='true' version='1' lat='0.0475' lon='0.105' />
+  <node id='606' visible='true' version='1' lat='0.0475' lon='0.115' />
+  <node id='608' visible='true' version='1' lat='0.0425' lon='0.11' />
+  <way id='582' action='modify' visible='true' version='1'>
+    <nd ref='583' />
+    <nd ref='581' />
+    <nd ref='580' />
+  </way>
+  <way id='586' visible='true' version='1'>
+    <nd ref='583' />
+    <nd ref='585' />
+    <nd ref='580' />
+  </way>
+  <way id='607' visible='true' version='1'>
+    <nd ref='605' />
+    <nd ref='606' />
+    <nd ref='608' />
+    <nd ref='605' />
+  </way>
+
+  <relation id='3' visible='true' version='1'>
+    <member type='way' ref='607' role='inner' />
+    <member type='way' ref='582' role='outer' />
+    <member type='way' ref='586' role='outer' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='ring of non closed ways' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

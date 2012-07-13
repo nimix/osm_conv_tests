@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='500' visible='true' version='1' lat='0.03' lon='0.1' />
+  <node id='501' visible='true' version='1' lat='0.02' lon='0.1' />
+  <node id='503' visible='true' version='1' lat='0.02' lon='0.12' />
+  <node id='505' visible='true' version='1' lat='0.03' lon='0.12' />
+  <node id='509' visible='true' version='1' lat='0.0275' lon='0.105' />
+  <node id='510' visible='true' version='1' lat='0.0225' lon='0.105' />
+  <node id='512' visible='true' version='1' lat='0.0225' lon='0.115' />
+  <node id='514' visible='true' version='1' lat='0.0275' lon='0.115' />
+
+  <way id='502' visible='true' version='1'>
+    <nd ref='500' />
+    <nd ref='501' />
+    <nd ref='503' />
+    <nd ref='505' />
+    <nd ref='500' />
+  </way>
+  <way id='511' visible='true' version='1'>
+    <nd ref='509' />
+    <nd ref='510' />
+    <nd ref='512' />
+    <nd ref='514' />
+    <nd ref='509' />
+  </way>
+  <relation id='2' visible='true' version='1'>
+    <member type='way' ref='511' role='inner' />
+    <member type='way' ref='502' role='outer' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='wrong ring orientation' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

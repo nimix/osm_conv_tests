@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='620' visible='true' version='1' lat='0.07' lon='0.1' />
+  <node id='621' visible='true' version='1' lat='0.06' lon='0.1' />
+  <node id='623' visible='true' version='1' lat='0.06' lon='0.12' />
+  <node id='625' visible='true' version='1' lat='0.065' lon='0.11' />
+  <node id='627' visible='true' version='1' lat='0.07' lon='0.12' />
+  <node id='630' visible='true' version='1' lat='0.0675' lon='0.105' />
+  <node id='631' visible='true' version='1' lat='0.0625' lon='0.11' />
+  <node id='633' visible='true' version='1' lat='0.0675' lon='0.115' />
+  <way id='622' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='621' />
+    <nd ref='620' />
+  </way>
+  <way id='628' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='627' />
+    <nd ref='620' />
+  </way>
+  <way id='632' visible='true' version='1'>
+    <nd ref='630' />
+    <nd ref='631' />
+    <nd ref='633' />
+    <nd ref='630' />
+  </way>
+  <way id='745' visible='true' version='1'>
+    <nd ref='623' />
+    <nd ref='625' />
+  </way>
+  <relation id='4' visible='true' version='1'>
+    <member type='way' ref='745' role='outer' />
+    <member type='way' ref='628' role='outer' />
+    <member type='way' ref='622' role='outer' />
+    <member type='way' ref='632' role='inner' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='way that has no role in forming rings' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

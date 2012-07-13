@@ -1,0 +1,1 @@
+This is an advanced multipolygon where not all linestrings are part of an ring. So the geometry is invalid.

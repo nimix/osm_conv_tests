@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='896' visible='true' version='1' lat='0.185' lon='0.1' />
+  <node id='897' visible='true' version='1' lat='0.18' lon='0.1' />
+  <node id='899' visible='true' version='1' lat='0.18' lon='0.12' />
+  <node id='901' visible='true' version='1' lat='0.185' lon='0.12' />
+  <node id='904' visible='true' version='1' lat='0.1825' lon='0.105' />
+  <node id='905' visible='true' version='1' lat='0.19' lon='0.11' />
+  <node id='907' visible='true' version='1' lat='0.1825' lon='0.115' />
+  <way id='898' visible='true' version='1'>
+    <nd ref='896' />
+    <nd ref='897' />
+    <nd ref='899' />
+    <nd ref='901' />
+    <nd ref='896' />
+  </way>
+  <way id='906' visible='true' version='1'>
+    <nd ref='904' />
+    <nd ref='905' />
+    <nd ref='907' />
+    <nd ref='904' />
+  </way>
+  <relation id='10' visible='true' version='1'>
+    <member type='way' ref='906' role='inner' />
+    <member type='way' ref='898' role='outer' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='inner intersecting the outer ring' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>
