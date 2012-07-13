@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+
+  <node id='207' version='1' visible='true' lat='0.05' lon='0.011' />
+  <node id='206' version='1' visible='true' lat='0.05' lon='0.02' />
+  <node id='205' version='1' visible='true' lat='0.04' lon='0.02' />
+  <node id='204' version='1' visible='true' lat='0.04' lon='0.01' />
+  <node id='203' version='1' visible='true' lat='0.05' lon='0.009' />
+  <node id='202' version='1' visible='true' lat='0.05' lon='0.0' />
+  <node id='201' version='1' visible='true' lat='0.04' lon='0.0' />
+
+  <way id='3' version='1' visible='true'>
+    <nd ref='201' />
+    <nd ref='202' />
+    <nd ref='203' />
+    <nd ref='204' />
+    <nd ref='205' />
+    <nd ref='206' />
+    <nd ref='207' />
+    <nd ref='204' />
+    <nd ref='201' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='touching outer way with one half of wrong orientation' />
+  </way>
+
+</osm>

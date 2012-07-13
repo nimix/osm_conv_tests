@@ -1,0 +1,2 @@
+This test contains a self touching ring forming a rectangle with a hole in it.
+The dublicate edge has to be removed so that the output consists of an outer ring containing an inner.

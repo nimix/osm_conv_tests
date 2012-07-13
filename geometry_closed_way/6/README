@@ -1,0 +1,2 @@
+This testcase contains a rectangle where two points a swapped.
+The valid output for this are two polygons, each forming a triangle.

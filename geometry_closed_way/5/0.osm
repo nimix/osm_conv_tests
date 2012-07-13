@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+
+  <node id='406' version='1' visible='true' lat='0.08' lon='0.02' />
+  <node id='405' version='1' visible='true' lat='0.09' lon='0.02' />
+  <node id='404' version='1' visible='true' lat='0.08' lon='0.01' />
+  <node id='403' version='1' visible='true' lat='0.09' lon='0.01' />
+  <node id='402' version='1' visible='true' lat='0.09' lon='0.0' />
+  <node id='401' version='1' visible='true' lat='0.08' lon='0.0' />
+
+  <way id='5' version='1' visible='true'>
+    <nd ref='401' />
+    <nd ref='402' />
+    <nd ref='403' />
+    <nd ref='404' />
+    <nd ref='406' />
+    <nd ref='405' />
+    <nd ref='403' />
+    <nd ref='404' />
+    <nd ref='401' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='outer sharing a segment one half wrong orientated' />
+  </way>
+</osm>

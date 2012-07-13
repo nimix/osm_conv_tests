@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+
+  <node id='104' version='1' visible='true' lat='0.03' lon='0.02' />
+  <node id='103' version='1' visible='true' lat='0.02' lon='0.02' />
+  <node id='102' version='1' visible='true' lat='0.02' lon='0.0' />
+  <node id='101' version='1' visible='true' lat='0.03' lon='0.0' />
+
+
+  <way id='2' version='1' visible='true'>
+    <nd ref='101' />
+    <nd ref='102' />
+    <nd ref='103' />
+    <nd ref='104' />
+    <nd ref='101' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='wrong orientation' />
+  </way>
+</osm>

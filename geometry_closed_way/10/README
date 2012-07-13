@@ -1,0 +1,2 @@
+This test contains a ring with noded self intersection.
+The part actually forming an inner ring of the geometry shuld be cut out and added as inner ring.

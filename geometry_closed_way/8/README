@@ -1,0 +1,2 @@
+This test contains a rectangle with an outer spike.
+This spike should not be in the output geometry.

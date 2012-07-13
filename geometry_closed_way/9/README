@@ -1,0 +1,2 @@
+This test contains a polygon which has a spike interseting other parts of the polygon.
+The spike should not be present in output.

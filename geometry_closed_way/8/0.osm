@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+
+
+  <node id='701' version='1' visible='true' lat='0.14' lon='0.0' />
+  <node id='702' version='1' visible='true' lat='0.15' lon='0.0' />
+  <node id='703' version='1' visible='true' lat='0.15' lon='0.01' />
+  <node id='704' version='1' visible='true' lat='0.15' lon='0.02' />
+  <node id='705' version='1' visible='true' lat='0.14' lon='0.01' />
+  
+
+  <way id='8' version='1' visible='true'>
+    <nd ref='701' />
+    <nd ref='702' />
+    <nd ref='703' />
+    <nd ref='704' />
+    <nd ref='703' />
+    <nd ref='705' />
+    <nd ref='701' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='polygon with spike' />
+  </way>
+
+</osm>

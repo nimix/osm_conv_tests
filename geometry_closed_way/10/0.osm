@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+  <node id='901' version='1' visible='true' lat='0.18' lon='0.0' />
+  <node id='902' version='1' visible='true' lat='0.19' lon='0.0' />
+  <node id='903' version='1' visible='true' lat='0.19' lon='0.02' />
+  <node id='904' version='1' visible='true' lat='0.18' lon='0.02' />
+  <node id='905' version='1' visible='true' lat='0.18' lon='0.01' />
+  <node id='906' version='1' visible='true' lat='0.185' lon='0.015' />
+  <node id='907' version='1' visible='true' lat='0.185' lon='0.005' />
+
+  <way id='10' version='1' visible='true'>
+    <nd ref='901' />
+    <nd ref='902' />
+    <nd ref='903' />
+    <nd ref='904' />
+    <nd ref='905' />
+    <nd ref='906' />
+    <nd ref='907' />
+    <nd ref='905' />
+    <nd ref='901' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='outer forms an inner' />
+  </way>
+
+</osm>

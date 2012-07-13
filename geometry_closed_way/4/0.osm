@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+  <node id='306' version='1' visible='true' lat='0.06' lon='0.02' />
+  <node id='305' version='1' visible='true' lat='0.07' lon='0.02' />
+  <node id='304' version='1' visible='true' lat='0.06' lon='0.01' />
+  <node id='303' version='1' visible='true' lat='0.07' lon='0.01' />
+  <node id='302' version='1' visible='true' lat='0.07' lon='0.0' />
+  <node id='301' version='1' visible='true' lat='0.06' lon='0.0' />
+
+  <way id='4' version='1' visible='true'>
+    <nd ref='301' />
+    <nd ref='302' />
+    <nd ref='303' />
+    <nd ref='304' />
+    <nd ref='303' />
+    <nd ref='305' />
+    <nd ref='306' />
+    <nd ref='304' />
+    <nd ref='301' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='outer sharing a segment' />
+  </way>
+
+</osm>

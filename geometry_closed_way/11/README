@@ -1,0 +1,2 @@
+This test contains a five vertex star where each segment intersects two others.
+The valid output should not have any self intersections.

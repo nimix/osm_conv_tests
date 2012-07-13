@@ -1,0 +1,2 @@
+This test contains a simple rectangle but in counterclockwise orientation. 
+So output needs to be turned to form a valid geometry.

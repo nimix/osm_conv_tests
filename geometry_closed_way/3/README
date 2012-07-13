@@ -1,0 +1,2 @@
+This test contains a closed way that in fact describes two closed outer ways, one in cw orientation and one in ccw. 
+So the output must be cut into two rings and one of them has to be turned.

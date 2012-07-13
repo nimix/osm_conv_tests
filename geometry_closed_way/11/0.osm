@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+  <node id='1001' version='1' visible='true' lat='0.21' lon='0.01' />
+  <node id='1002' version='1' visible='true' lat='0.20' lon='0.02' />
+  <node id='1003' version='1' visible='true' lat='0.205' lon='0.0' />
+  <node id='1004' version='1' visible='true' lat='0.205' lon='0.02' />
+  <node id='1005' version='1' visible='true' lat='0.20' lon='0.00' />
+
+
+  <way id='11' version='1' visible='true'>
+    <nd ref='1001' />
+    <nd ref='1002' />
+    <nd ref='1003' />
+    <nd ref='1004' />
+    <nd ref='1005' />
+    <nd ref='1001' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='multi self intersections' />
+  </way>
+
+</osm>

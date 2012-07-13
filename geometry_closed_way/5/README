@@ -1,0 +1,3 @@
+This test contains two reactangles differently orientated sharing an edge.
+So the valid geometry is in fact a large rectangle. 
+The shared edge has to be cut out and half of the large rect has to be reversed.

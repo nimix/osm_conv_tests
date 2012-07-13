@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+
+
+  <node id='1101' version='1' visible='true' lat='0.22' lon='0.0' />
+  <node id='1102' version='1' visible='true' lat='0.23' lon='0.0' />
+  <node id='1103' version='1' visible='true' lat='0.23' lon='0.02' />
+  <node id='1104' version='1' visible='true' lat='0.2275' lon='0.02' />
+  <node id='1105' version='1' visible='true' lat='0.2275' lon='0.005' />
+  <node id='1106' version='1' visible='true' lat='0.2225' lon='0.005' />
+  <node id='1107' version='1' visible='true' lat='0.2225' lon='0.015' />
+  <node id='1108' version='1' visible='true' lat='0.23' lon='0.015' />
+  <node id='1109' version='1' visible='true' lat='0.22' lon='0.02' />
+
+
+  <way id='12' version='1' visible='true'>
+    <nd ref='1101' />
+    <nd ref='1102' />
+    <nd ref='1103' />
+    <nd ref='1104' />
+    <nd ref='1105' />
+    <nd ref='1106' />
+    <nd ref='1107' />
+    <nd ref='1108' />
+    <nd ref='1103' />
+    <nd ref='1109' />
+    <nd ref='1101' />
+    <tag k='landuse' v='forest' />
+    <tag k='name' v='intersection forming an inner' />
+  </way>
+
+</osm>
